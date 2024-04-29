@@ -1,0 +1,50 @@
+.section{
+    background: #d2e4f6;
+   
+}
+.image{
+   position: relative;
+   flex-direction: left;
+   justify-content: right;
+   
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    float: left;
+    display: inline;
+}
+@media screen and (max-width: 300px) {
+    div {
+        font-size: 45px;
+        
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    div {
+        font-size: 45px;
+
+    }
+}
+div{
+     align-items: center;
+     align-content: center;
+         
+}
+.section {
+    align-items: center;
+    align-content: center;
+}
+.image {
+    align-content: center;
+    align-items: center;
+}
+button {
+    align-content: center;
+    align-items: center;
+
+}
+img {
+    background-image: url(image 152.png);
+}
